@@ -1,5 +1,6 @@
 import React from 'react'
-import { HelmetProvider } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Seo from './components/Seo'
 
@@ -22,6 +23,7 @@ function App() {
             Learn React
           </a>
         </div>
+        <Footer />
       </div>
     </HelmetProvider>
   )
