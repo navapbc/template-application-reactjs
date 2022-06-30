@@ -1,6 +1,6 @@
 import React from 'react'
 import { Badge } from '@cmsgov/design-system';
-import logo from '../images/logo.svg'
+import { ReactComponent as Logo } from '../images/logo.svg'
 
 function Header() {
 
@@ -10,8 +10,8 @@ function Header() {
           Template App
         </h1>
         <div className="ds-u-text-align--right">
-          <Badge variation="info" size="big">
-            <img className="c-usa-banner__header-flag" src={logo} alt="logo" />
+          <Badge variation="info">
+            <Logo className="c-usa-banner__header-flag" title="logo" />
             &nbsp;React & Typescript
           </Badge>
         </div>
