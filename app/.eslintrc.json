@@ -5,13 +5,12 @@
   "extends": [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier",
-    "nava"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "tsconfigRootDir": "./",
-    "project": ["./tsconfig.json"]
+    "tsconfigRootDir": "./app",
+    "project": ["tsconfig.json"]
   },
   "plugins": ["@typescript-eslint", "jest"],
   "rules": {
