@@ -9,7 +9,7 @@
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    "tsconfigRootDir": "./app",
+    "tsconfigRootDir": ".",
     "project": ["tsconfig.json"]
   },
   "plugins": ["@typescript-eslint", "jest"],
