@@ -11,7 +11,7 @@ function Header() {
           Template App
         </Link>
       </h1>
-      <div className="ds-u-text-align--right">
+      <div className="ds-u-text-align--right ds-u-display--none ds-u-md-display--block">
         <Badge variation="info">
           <Logo className="c-usa-banner__header-flag" title="logo" />
           &nbsp;React & Typescript
