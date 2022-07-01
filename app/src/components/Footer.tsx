@@ -2,9 +2,14 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="ds-u-padding-y--1">
+    <footer className="ds-u-padding--3 ds-u-sm-padding--6 ds-u-fill--primary-darkest">
       <div className="ds-l-container">
-        <div className="ds-l-row ds-u-align-items--center ds-u-justify-content--start">
+        <div className="ds-l-row ds-u-align-items--center ds-u-justify-content--between">
+          <div className="ds-l-col ds-l-col--12 ds-l-sm-col--6">
+            <p className="ds-text--lead ds-u-color--white ds-text-heading--lg">
+              Sample Footer
+            </p>
+          </div>
           <div className="ds-l-col ds-l-col--12 ds-l-sm-col--6">
             <p className="ds-text--lead">
               <a
