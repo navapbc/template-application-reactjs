@@ -12,19 +12,46 @@ function App() {
         <div className="ds-base">
           <Seo />
           <Header />
-          <div className="App-header">
-            <p>
-              Edit <code>src/App.tsx</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </div>
+          <main id="main" className='ds-l-container ds-u-padding--0 ds-u-padding-bottom--4 minh-viewport'>
+              <div className='ds-l-row'></div>
+              <h2 className='ds-text-heading--3xl'>
+               Welcome to your&nbsp;
+               <a className='ds-c-link' href="https://github.com/navapbc/template-application-reactjs">Reactjs & Typescript Template!</a>
+              </h2>
+              <ul className='ds-c-list--bare'>
+                <li>
+                  <a
+                    className="ds-c-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn React
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="ds-c-link"
+                    href="https://www.typescriptlang.org/docs/handbook/intro.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn Typescript
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="ds-c-link"
+                    href="https://design.cms.gov"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn CMS Design System
+                  </a>
+                </li>
+              </ul>
+
+          </main>
           <Footer />
         </div>
       </Router>

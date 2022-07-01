@@ -5,8 +5,14 @@ $image-path: '~@cmsgov/design-system/dist/images';
 // Core CMSDS styles
 @import '@cmsgov/design-system/dist/scss/index';
 
+
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.minh-viewport {
+  min-height: 100vh;
 }
